@@ -1,0 +1,1011 @@
+#cookieWarning *, #cookieWarning *:after, #cookieWarning *:before {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+/*Cookie Banner*/
+#cookieWarning {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    background: rgba(0,65,118,.9);
+    z-index: 10000;
+    padding: 1em 0;
+    font-size: 0.9rem;
+    color: white;
+    font-weight: bold;
+    display: block;
+    font-family: Raleway,helvetica,arial,sans-serif;
+}
+
+    #cookieWarning div {
+        display: block;
+    }
+
+    #cookieWarning h1 {
+				color: #ffffff;
+        line-height: 1;
+        font-size: 1.4em;
+        margin-top: 0;
+        font-family: "Open Sans",verdana,helvetica,arial,sans-serif;
+        font-weight: normal;
+        display: block;
+    }
+
+    #cookieWarning .m_auto {
+        margin: 0 auto;
+    }
+
+    #cookieWarning .text_center {
+        text-align: center;
+    }
+
+    #cookieWarning .w_site {
+        max-width: 960px;
+    }
+
+    #cookieWarning .column {
+        padding: 1em
+    }
+
+    #cookieWarning .float_right {
+        float: right;
+    }
+
+    #cookieWarning .float_left {
+        float: left;
+    }
+
+    #cookieWarning a {
+        text-decoration: underline;
+        color: #ff0;
+    }
+
+	#cookieWarning .acc-standard-button {
+		font-family: Raleway,helvetica,arial,sans-serif;
+		padding: 10px;
+		background-color: #3C9EBA;
+		font-size: 1.15em;
+		text-decoration: none;
+		color: #fff;
+		font-weight: bold !important;
+		line-height: 24px !important;
+		border-radius: 10px !important;
+		margin-left: 0em !important;
+		margin-right: 0.5em !important;
+		margin-top: 0.5em !important;
+		margin-bottom: 0em !important;
+		display: block;
+		white-space: nowrap;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		max-height: 40px;
+		text-align: center;
+		color: white;
+		text-decoration: none;
+		width: 100%;
+	}
+
+    /*#cookieWarning .row {
+        margin-left: -15px;
+        margin-right: -15px;
+    }*/
+
+        #cookieWarning .row:before, #cookieWarning .row:after {
+            content: " ";
+            display: table;
+        }
+
+        #cookieWarning .row:after {
+            clear: both;
+        }
+
+    #cookieWarning .col-xs-1, #cookieWarning .col-sm-1, #cookieWarning .col-md-1, #cookieWarning .col-lg-1, #cookieWarning .col-xs-2, #cookieWarning .col-sm-2, #cookieWarning .col-md-2, #cookieWarning .col-lg-2, #cookieWarning .col-xs-3, #cookieWarning .col-sm-3, #cookieWarning .col-md-3, #cookieWarning .col-lg-3, #cookieWarning .col-xs-4, #cookieWarning .col-sm-4, #cookieWarning .col-md-4, #cookieWarning .col-lg-4, #cookieWarning .col-xs-5, #cookieWarning .col-sm-5, #cookieWarning .col-md-5, #cookieWarning .col-lg-5, #cookieWarning .col-xs-6, #cookieWarning .col-sm-6, #cookieWarning .col-md-6, #cookieWarning .col-lg-6, #cookieWarning .col-xs-7, #cookieWarning .col-sm-7, #cookieWarning .col-md-7, #cookieWarning .col-lg-7, #cookieWarning .col-xs-8, #cookieWarning .col-sm-8, #cookieWarning .col-md-8, #cookieWarning .col-lg-8, #cookieWarning .col-xs-9, #cookieWarning .col-sm-9, #cookieWarning .col-md-9, #cookieWarning .col-lg-9, #cookieWarning .col-xs-10, #cookieWarning .col-sm-10, #cookieWarning .col-md-10, #cookieWarning .col-lg-10, #cookieWarning .col-xs-11, #cookieWarning .col-sm-11, #cookieWarning .col-md-11, #cookieWarning .col-lg-11, #cookieWarning .col-xs-12, #cookieWarning .col-sm-12, #cookieWarning .col-md-12, #cookieWarning .col-lg-12 {
+        position: relative;
+        min-height: 1px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    #cookieWarning .col-xs-1, #cookieWarning .col-xs-2, #cookieWarning .col-xs-3, #cookieWarning .col-xs-4, #cookieWarning .col-xs-5, #cookieWarning .col-xs-6, #cookieWarning .col-xs-7, #cookieWarning .col-xs-8, #cookieWarning .col-xs-9, #cookieWarning .col-xs-10, #cookieWarning .col-xs-11, #cookieWarning .col-xs-12 {
+        float: left;
+    }
+
+    #cookieWarning .col-xs-1 {
+        width: 8.33333%;
+    }
+
+    #cookieWarning .col-xs-2 {
+        width: 16.66667%;
+    }
+
+    #cookieWarning .col-xs-3 {
+        width: 25%;
+    }
+
+    #cookieWarning .col-xs-4 {
+        width: 33.33333%;
+    }
+
+    #cookieWarning .col-xs-5 {
+        width: 41.66667%;
+    }
+
+    #cookieWarning .col-xs-6 {
+        width: 50%;
+    }
+
+    #cookieWarning .col-xs-7 {
+        width: 58.33333%;
+    }
+
+    #cookieWarning .col-xs-8 {
+        width: 66.66667%;
+    }
+
+    #cookieWarning .col-xs-9 {
+        width: 75%;
+    }
+
+    #cookieWarning .col-xs-10 {
+        width: 83.33333%;
+    }
+
+    #cookieWarning .col-xs-11 {
+        width: 91.66667%;
+    }
+
+    #cookieWarning .col-xs-12 {
+        width: 100%;
+    }
+
+    #cookieWarning .col-xs-pull-0 {
+        right: 0%;
+    }
+
+    #cookieWarning .col-xs-pull-1 {
+        right: 8.33333%;
+    }
+
+    #cookieWarning .col-xs-pull-2 {
+        right: 16.66667%;
+    }
+
+    #cookieWarning .col-xs-pull-3 {
+        right: 25%;
+    }
+
+    #cookieWarning .col-xs-pull-4 {
+        right: 33.33333%;
+    }
+
+    #cookieWarning .col-xs-pull-5 {
+        right: 41.66667%;
+    }
+
+    #cookieWarning .col-xs-pull-6 {
+        right: 50%;
+    }
+
+    #cookieWarning .col-xs-pull-7 {
+        right: 58.33333%;
+    }
+
+    #cookieWarning .col-xs-pull-8 {
+        right: 66.66667%;
+    }
+
+    #cookieWarning .col-xs-pull-9 {
+        right: 75%;
+    }
+
+    #cookieWarning .col-xs-pull-10 {
+        right: 83.33333%;
+    }
+
+    #cookieWarning .col-xs-pull-11 {
+        right: 91.66667%;
+    }
+
+    #cookieWarning .col-xs-pull-12 {
+        right: 100%;
+    }
+
+    #cookieWarning .col-xs-push-0 {
+        left: 0%;
+    }
+
+    #cookieWarning .col-xs-push-1 {
+        left: 8.33333%;
+    }
+
+    #cookieWarning .col-xs-push-2 {
+        left: 16.66667%;
+    }
+
+    #cookieWarning .col-xs-push-3 {
+        left: 25%;
+    }
+
+    #cookieWarning .col-xs-push-4 {
+        left: 33.33333%;
+    }
+
+    #cookieWarning .col-xs-push-5 {
+        left: 41.66667%;
+    }
+
+    #cookieWarning .col-xs-push-6 {
+        left: 50%;
+    }
+
+    #cookieWarning .col-xs-push-7 {
+        left: 58.33333%;
+    }
+
+    #cookieWarning .col-xs-push-8 {
+        left: 66.66667%;
+    }
+
+    #cookieWarning .col-xs-push-9 {
+        left: 75%;
+    }
+
+    #cookieWarning .col-xs-push-10 {
+        left: 83.33333%;
+    }
+
+    #cookieWarning .col-xs-push-11 {
+        left: 91.66667%;
+    }
+
+    #cookieWarning .col-xs-push-12 {
+        left: 100%;
+    }
+
+    #cookieWarning .col-xs-offset-0 {
+        margin-left: 0%;
+    }
+
+    #cookieWarning .col-xs-offset-1 {
+        margin-left: 8.33333%;
+    }
+
+    #cookieWarning .col-xs-offset-2 {
+        margin-left: 16.66667%;
+    }
+
+    #cookieWarning .col-xs-offset-3 {
+        margin-left: 25%;
+    }
+
+    #cookieWarning .col-xs-offset-4 {
+        margin-left: 33.33333%;
+    }
+
+    #cookieWarning .col-xs-offset-5 {
+        margin-left: 41.66667%;
+    }
+
+    #cookieWarning .col-xs-offset-6 {
+        margin-left: 50%;
+    }
+
+    #cookieWarning .col-xs-offset-7 {
+        margin-left: 58.33333%;
+    }
+
+    #cookieWarning .col-xs-offset-8 {
+        margin-left: 66.66667%;
+    }
+
+    #cookieWarning .col-xs-offset-9 {
+        margin-left: 75%;
+    }
+
+    #cookieWarning .col-xs-offset-10 {
+        margin-left: 83.33333%;
+    }
+
+    #cookieWarning .col-xs-offset-11 {
+        margin-left: 91.66667%;
+    }
+
+    #cookieWarning .col-xs-offset-12 {
+        margin-left: 100%;
+    }
+
+@media (min-width: 768px) {
+    #cookieWarning .col-sm-1, #cookieWarning .col-sm-2, #cookieWarning .col-sm-3, #cookieWarning .col-sm-4, #cookieWarning .col-sm-5, #cookieWarning .col-sm-6, #cookieWarning .col-sm-7, #cookieWarning .col-sm-8, #cookieWarning .col-sm-9, #cookieWarning .col-sm-10, #cookieWarning .col-sm-11, #cookieWarning .col-sm-12 {
+        float: left;
+    }
+
+    #cookieWarning .col-sm-1 {
+        width: 8.33333%;
+    }
+
+    #cookieWarning .col-sm-2 {
+        width: 16.66667%;
+    }
+
+    #cookieWarning .col-sm-3 {
+        width: 25%;
+    }
+
+    #cookieWarning .col-sm-4 {
+        width: 33.33333%;
+    }
+
+    #cookieWarning .col-sm-5 {
+        width: 41.66667%;
+    }
+
+    #cookieWarning .col-sm-6 {
+        width: 50%;
+    }
+
+    #cookieWarning .col-sm-7 {
+        width: 58.33333%;
+    }
+
+    #cookieWarning .col-sm-8 {
+        width: 66.66667%;
+    }
+
+    #cookieWarning .col-sm-9 {
+        width: 75%;
+    }
+
+    #cookieWarning .col-sm-10 {
+        width: 83.33333%;
+    }
+
+    #cookieWarning .col-sm-11 {
+        width: 91.66667%;
+    }
+
+    #cookieWarning .col-sm-12 {
+        width: 100%;
+    }
+
+    #cookieWarning .col-sm-pull-0 {
+        right: 0%;
+    }
+
+    #cookieWarning .col-sm-pull-1 {
+        right: 8.33333%;
+    }
+
+    #cookieWarning .col-sm-pull-2 {
+        right: 16.66667%;
+    }
+
+    #cookieWarning .col-sm-pull-3 {
+        right: 25%;
+    }
+
+    #cookieWarning .col-sm-pull-4 {
+        right: 33.33333%;
+    }
+
+    #cookieWarning .col-sm-pull-5 {
+        right: 41.66667%;
+    }
+
+    #cookieWarning .col-sm-pull-6 {
+        right: 50%;
+    }
+
+    #cookieWarning .col-sm-pull-7 {
+        right: 58.33333%;
+    }
+
+    #cookieWarning .col-sm-pull-8 {
+        right: 66.66667%;
+    }
+
+    #cookieWarning .col-sm-pull-9 {
+        right: 75%;
+    }
+
+    #cookieWarning .col-sm-pull-10 {
+        right: 83.33333%;
+    }
+
+    #cookieWarning .col-sm-pull-11 {
+        right: 91.66667%;
+    }
+
+    #cookieWarning .col-sm-pull-12 {
+        right: 100%;
+    }
+
+    #cookieWarning .col-sm-push-0 {
+        left: 0%;
+    }
+
+    #cookieWarning .col-sm-push-1 {
+        left: 8.33333%;
+    }
+
+    #cookieWarning .col-sm-push-2 {
+        left: 16.66667%;
+    }
+
+    #cookieWarning .col-sm-push-3 {
+        left: 25%;
+    }
+
+    #cookieWarning .col-sm-push-4 {
+        left: 33.33333%;
+    }
+
+    #cookieWarning .col-sm-push-5 {
+        left: 41.66667%;
+    }
+
+    #cookieWarning .col-sm-push-6 {
+        left: 50%;
+    }
+
+    #cookieWarning .col-sm-push-7 {
+        left: 58.33333%;
+    }
+
+    #cookieWarning .col-sm-push-8 {
+        left: 66.66667%;
+    }
+
+    #cookieWarning .col-sm-push-9 {
+        left: 75%;
+    }
+
+    #cookieWarning .col-sm-push-10 {
+        left: 83.33333%;
+    }
+
+    #cookieWarning .col-sm-push-11 {
+        left: 91.66667%;
+    }
+
+    #cookieWarning .col-sm-push-12 {
+        left: 100%;
+    }
+
+    #cookieWarning .col-sm-offset-0 {
+        margin-left: 0%;
+    }
+
+    #cookieWarning .col-sm-offset-1 {
+        margin-left: 8.33333%;
+    }
+
+    #cookieWarning .col-sm-offset-2 {
+        margin-left: 16.66667%;
+    }
+
+    #cookieWarning .col-sm-offset-3 {
+        margin-left: 25%;
+    }
+
+    #cookieWarning .col-sm-offset-4 {
+        margin-left: 33.33333%;
+    }
+
+    #cookieWarning .col-sm-offset-5 {
+        margin-left: 41.66667%;
+    }
+
+    #cookieWarning .col-sm-offset-6 {
+        margin-left: 50%;
+    }
+
+    #cookieWarning .col-sm-offset-7 {
+        margin-left: 58.33333%;
+    }
+
+    #cookieWarning .col-sm-offset-8 {
+        margin-left: 66.66667%;
+    }
+
+    #cookieWarning .col-sm-offset-9 {
+        margin-left: 75%;
+    }
+
+    #cookieWarning .col-sm-offset-10 {
+        margin-left: 83.33333%;
+    }
+
+    #cookieWarning .col-sm-offset-11 {
+        margin-left: 91.66667%;
+    }
+
+    #cookieWarning .col-sm-offset-12 {
+        margin-left: 100%;
+    }
+}
+
+@media (min-width: 992px) {
+    #cookieWarning .col-md-1, #cookieWarning .col-md-2, #cookieWarning .col-md-3, #cookieWarning .col-md-4, #cookieWarning .col-md-5, #cookieWarning .col-md-6, #cookieWarning .col-md-7, #cookieWarning .col-md-8, #cookieWarning .col-md-9, #cookieWarning .col-md-10, #cookieWarning .col-md-11, #cookieWarning .col-md-12 {
+        float: left;
+    }
+
+    #cookieWarning .col-md-1 {
+        width: 8.33333%;
+    }
+
+    #cookieWarning .col-md-2 {
+        width: 16.66667%;
+    }
+
+    #cookieWarning .col-md-3 {
+        width: 25%;
+    }
+
+    #cookieWarning .col-md-4 {
+        width: 33.33333%;
+    }
+
+    #cookieWarning .col-md-5 {
+        width: 41.66667%;
+    }
+
+    #cookieWarning .col-md-6 {
+        width: 50%;
+    }
+
+    #cookieWarning .col-md-7 {
+        width: 58.33333%;
+    }
+
+    #cookieWarning .col-md-8 {
+        width: 66.66667%;
+    }
+
+    #cookieWarning .col-md-9 {
+        width: 75%;
+    }
+
+    #cookieWarning .col-md-10 {
+        width: 83.33333%;
+    }
+
+    #cookieWarning .col-md-11 {
+        width: 91.66667%;
+    }
+
+    #cookieWarning .col-md-12 {
+        width: 100%;
+    }
+
+    #cookieWarning .col-md-pull-0 {
+        right: 0%;
+    }
+
+    #cookieWarning .col-md-pull-1 {
+        right: 8.33333%;
+    }
+
+    #cookieWarning .col-md-pull-2 {
+        right: 16.66667%;
+    }
+
+    #cookieWarning .col-md-pull-3 {
+        right: 25%;
+    }
+
+    #cookieWarning .col-md-pull-4 {
+        right: 33.33333%;
+    }
+
+    #cookieWarning .col-md-pull-5 {
+        right: 41.66667%;
+    }
+
+    #cookieWarning .col-md-pull-6 {
+        right: 50%;
+    }
+
+    #cookieWarning .col-md-pull-7 {
+        right: 58.33333%;
+    }
+
+    #cookieWarning .col-md-pull-8 {
+        right: 66.66667%;
+    }
+
+    #cookieWarning .col-md-pull-9 {
+        right: 75%;
+    }
+
+    #cookieWarning .col-md-pull-10 {
+        right: 83.33333%;
+    }
+
+    #cookieWarning .col-md-pull-11 {
+        right: 91.66667%;
+    }
+
+    #cookieWarning .col-md-pull-12 {
+        right: 100%;
+    }
+
+    #cookieWarning .col-md-push-0 {
+        left: 0%;
+    }
+
+    #cookieWarning .col-md-push-1 {
+        left: 8.33333%;
+    }
+
+    #cookieWarning .col-md-push-2 {
+        left: 16.66667%;
+    }
+
+    #cookieWarning .col-md-push-3 {
+        left: 25%;
+    }
+
+    #cookieWarning .col-md-push-4 {
+        left: 33.33333%;
+    }
+
+    #cookieWarning .col-md-push-5 {
+        left: 41.66667%;
+    }
+
+    #cookieWarning .col-md-push-6 {
+        left: 50%;
+    }
+
+    #cookieWarning .col-md-push-7 {
+        left: 58.33333%;
+    }
+
+    #cookieWarning .col-md-push-8 {
+        left: 66.66667%;
+    }
+
+    #cookieWarning .col-md-push-9 {
+        left: 75%;
+    }
+
+    #cookieWarning .col-md-push-10 {
+        left: 83.33333%;
+    }
+
+    #cookieWarning .col-md-push-11 {
+        left: 91.66667%;
+    }
+
+    #cookieWarning .col-md-push-12 {
+        left: 100%;
+    }
+
+    #cookieWarning .col-md-offset-0 {
+        margin-left: 0%;
+    }
+
+    #cookieWarning .col-md-offset-1 {
+        margin-left: 8.33333%;
+    }
+
+    #cookieWarning .col-md-offset-2 {
+        margin-left: 16.66667%;
+    }
+
+    #cookieWarning .col-md-offset-3 {
+        margin-left: 25%;
+    }
+
+    #cookieWarning .col-md-offset-4 {
+        margin-left: 33.33333%;
+    }
+
+    #cookieWarning .col-md-offset-5 {
+        margin-left: 41.66667%;
+    }
+
+    #cookieWarning .col-md-offset-6 {
+        margin-left: 50%;
+    }
+
+    #cookieWarning .col-md-offset-7 {
+        margin-left: 58.33333%;
+    }
+
+    #cookieWarning .col-md-offset-8 {
+        margin-left: 66.66667%;
+    }
+
+    #cookieWarning .col-md-offset-9 {
+        margin-left: 75%;
+    }
+
+    #cookieWarning .col-md-offset-10 {
+        margin-left: 83.33333%;
+    }
+
+    #cookieWarning .col-md-offset-11 {
+        margin-left: 91.66667%;
+    }
+
+    #cookieWarning .col-md-offset-12 {
+        margin-left: 100%;
+    }
+}
+
+@media (min-width: 1200px) {
+    #cookieWarning .col-lg-1, #cookieWarning .col-lg-2, #cookieWarning .col-lg-3, #cookieWarning .col-lg-4, #cookieWarning .col-lg-5, #cookieWarning .col-lg-6, #cookieWarning .col-lg-7, #cookieWarning .col-lg-8, #cookieWarning .col-lg-9, #cookieWarning .col-lg-10, #cookieWarning .col-lg-11, #cookieWarning .col-lg-12 {
+        float: left;
+    }
+
+    #cookieWarning .col-lg-1 {
+        width: 8.33333%;
+    }
+
+    #cookieWarning .col-lg-2 {
+        width: 16.66667%;
+    }
+
+    #cookieWarning .col-lg-3 {
+        width: 25%;
+    }
+
+    #cookieWarning .col-lg-4 {
+        width: 33.33333%;
+    }
+
+    #cookieWarning .col-lg-5 {
+        width: 41.66667%;
+    }
+
+    #cookieWarning .col-lg-6 {
+        width: 50%;
+    }
+
+    #cookieWarning .col-lg-7 {
+        width: 58.33333%;
+    }
+
+    #cookieWarning .col-lg-8 {
+        width: 66.66667%;
+    }
+
+    #cookieWarning .col-lg-9 {
+        width: 75%;
+    }
+
+    #cookieWarning .col-lg-10 {
+        width: 83.33333%;
+    }
+
+    #cookieWarning .col-lg-11 {
+        width: 91.66667%;
+    }
+
+    #cookieWarning .col-lg-12 {
+        width: 100%;
+    }
+
+    #cookieWarning .col-lg-pull-0 {
+        right: 0%;
+    }
+
+    #cookieWarning .col-lg-pull-1 {
+        right: 8.33333%;
+    }
+
+    #cookieWarning .col-lg-pull-2 {
+        right: 16.66667%;
+    }
+
+    #cookieWarning .col-lg-pull-3 {
+        right: 25%;
+    }
+
+    #cookieWarning .col-lg-pull-4 {
+        right: 33.33333%;
+    }
+
+    #cookieWarning .col-lg-pull-5 {
+        right: 41.66667%;
+    }
+
+    #cookieWarning .col-lg-pull-6 {
+        right: 50%;
+    }
+
+    #cookieWarning .col-lg-pull-7 {
+        right: 58.33333%;
+    }
+
+    #cookieWarning .col-lg-pull-8 {
+        right: 66.66667%;
+    }
+
+    #cookieWarning .col-lg-pull-9 {
+        right: 75%;
+    }
+
+    #cookieWarning .col-lg-pull-10 {
+        right: 83.33333%;
+    }
+
+    #cookieWarning .col-lg-pull-11 {
+        right: 91.66667%;
+    }
+
+    #cookieWarning .col-lg-pull-12 {
+        right: 100%;
+    }
+
+    #cookieWarning .col-lg-push-0 {
+        left: 0%;
+    }
+
+    #cookieWarning .col-lg-push-1 {
+        left: 8.33333%;
+    }
+
+    #cookieWarning .col-lg-push-2 {
+        left: 16.66667%;
+    }
+
+    #cookieWarning .col-lg-push-3 {
+        left: 25%;
+    }
+
+    #cookieWarning .col-lg-push-4 {
+        left: 33.33333%;
+    }
+
+    #cookieWarning .col-lg-push-5 {
+        left: 41.66667%;
+    }
+
+    #cookieWarning .col-lg-push-6 {
+        left: 50%;
+    }
+
+    #cookieWarning .col-lg-push-7 {
+        left: 58.33333%;
+    }
+
+    #cookieWarning .col-lg-push-8 {
+        left: 66.66667%;
+    }
+
+    #cookieWarning .col-lg-push-9 {
+        left: 75%;
+    }
+
+    #cookieWarning .col-lg-push-10 {
+        left: 83.33333%;
+    }
+
+    #cookieWarning .col-lg-push-11 {
+        left: 91.66667%;
+    }
+
+    #cookieWarning .col-lg-push-12 {
+        left: 100%;
+    }
+
+    #cookieWarning .col-lg-offset-0 {
+        margin-left: 0%;
+    }
+
+    #cookieWarning .col-lg-offset-1 {
+        margin-left: 8.33333%;
+    }
+
+    #cookieWarning .col-lg-offset-2 {
+        margin-left: 16.66667%;
+    }
+
+    #cookieWarning .col-lg-offset-3 {
+        margin-left: 25%;
+    }
+
+    #cookieWarning .col-lg-offset-4 {
+        margin-left: 33.33333%;
+    }
+
+    #cookieWarning .col-lg-offset-5 {
+        margin-left: 41.66667%;
+    }
+
+    #cookieWarning .col-lg-offset-6 {
+        margin-left: 50%;
+    }
+
+    #cookieWarning .col-lg-offset-7 {
+        margin-left: 58.33333%;
+    }
+
+    #cookieWarning .col-lg-offset-8 {
+        margin-left: 66.66667%;
+    }
+
+    #cookieWarning .col-lg-offset-9 {
+        margin-left: 75%;
+    }
+
+    #cookieWarning .col-lg-offset-10 {
+        margin-left: 83.33333%;
+    }
+
+    #cookieWarning .col-lg-offset-11 {
+        margin-left: 91.66667%;
+    }
+
+    #cookieWarning .col-lg-offset-12 {
+        margin-left: 100%;
+    }
+}
+
+#cookieWarning .btn {
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: normal;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857;
+    border-radius: 4px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+    #cookieWarning .btn:focus, #cookieWarning .btn:active:focus, #cookieWarning .btn.active:focus {
+        outline: thin dotted;
+        outline: 5px auto -webkit-focus-ring-color;
+        outline-offset: -2px;
+    }
+
+    #cookieWarning .btn:hover, #cookieWarning .btn:focus {
+        /*color: #333;*/
+        text-decoration: none;
+    }
+
+    #cookieWarning .btn:active, #cookieWarning .btn.active {
+        outline: 0;
+        background-image: none;
+        -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+        box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    }
+
+    #cookieWarning .btn.disabled, #cookieWarning .btn[disabled], #cookieWarning fieldset[disabled] .btn {
+        cursor: not-allowed;
+        pointer-events: none;
+        opacity: 0.65;
+        filter: alpha(opacity=65);
+        -webkit-box-shadow: none;
+        box-shadow: none;
+    }
+
+#cookieWarning .btn-block {
+    display: block;
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+    #cookieWarning .btn-block + .btn-block {
+        margin-top: 5px;
+    }
+
+#cookieWarning input[type="submit"].btn-block, #cookieWarning input[type="reset"].btn-block, #cookieWarning input[type="button"].btn-block {
+    width: 100%;
+}

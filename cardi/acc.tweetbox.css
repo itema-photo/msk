@@ -1,0 +1,269 @@
+/*CLEARFIX*/
+.cf:before,
+.cf:after {
+    content: " ";
+    display: table;
+}
+
+.cf:after {
+    clear: both;
+}
+
+.cf {
+    *zoom: 1;
+}
+/*---------------------------*/
+
+.twitter-feed {
+    font-family: Helvetica, Roboto, "Segoe UI", Calibri, sans-serif;
+    color: #333;
+}
+
+    .twitter-feed * {
+        box-sizing: border-box;
+    }
+
+.feed-wrapper {
+    padding: 20px;
+    /*max-width: 350px;*/
+    height: 500px;
+}
+
+.twitter-feed a {
+    color: #3b94d9;
+    text-decoration: none;
+}
+
+    .twitter-feed a:hover {
+        color: #333;
+        text-decoration: none;
+    }
+
+.twitter-feed .icon {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
+    font-family: "FontAwesome";
+    font-weight: normal;
+}
+
+.feed-header {
+    border-bottom: 1px solid rgba(15,70,100,.12);
+    padding: 20px 0;
+    position: relative;
+}
+
+.feed-title {
+    margin: 0 40px 0 0;
+    font-size: 21px;
+    line-height: 1;
+}
+
+
+.feed-header .info {
+    position: absolute;
+    right: 10px;
+    bottom: 20px;
+    line-height: 1;
+}
+
+    .feed-header .info .icon {
+        font-size: 12px;
+        color: #3b94d9;
+    }
+
+        .feed-header .info .icon:hover {
+            color: #3b94d9;
+        }
+
+        .feed-header .info .icon:before {
+            content: "\f05a";
+        }
+
+.feed {
+    overflow-x: hidden;
+    /*overflow-y: scroll;*/
+    max-height: calc(100% - 172px);
+}
+
+    .feed .nano-content {
+        padding-right: 10px;
+    }
+
+.feed-item {
+    border-bottom: 1px solid rgba(15,70,100,.12);
+    padding: 10px;
+    position: relative;
+}
+
+.twitter-icon {
+    color: #E1E8ED;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    font-size: 16px;
+}
+
+    .twitter-icon:before {
+        content: "\f099";
+    }
+
+.feed-item:hover {
+    background-color: rgba(160,200,220,.12);
+}
+
+    .feed-item:hover .twitter-icon {
+        color: #00aced;
+    }
+
+.retweet {
+    margin: 0 20px 0 10px;
+}
+
+    .retweet p {
+        margin: 0;
+        font-size: 14px;
+        color: #889ba6;
+    }
+
+    .retweet span {
+        vertical-align: middle;
+    }
+
+    .retweet .icon {
+        background-color: #30D392;
+        color: #fff;
+        font-size: 12px;
+        padding: 2px 4px;
+    }
+
+        .retweet .icon:before {
+            content: "\f079";
+        }
+
+.twitter-user {
+    margin-right: 20px;
+    padding: 20px 0;
+}
+
+.user-image {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 10px 0 0;
+    display: inline-block;
+    vertical-align: top;
+}
+
+    .user-image a {
+        display: block;
+    }
+
+    .user-image img {
+        width: 100%;
+    }
+
+.user-info {
+    display: inline-block;
+    vertical-align: top;
+}
+
+    .user-info p {
+        margin: 0 0 5px;
+    }
+
+.user-name {
+    font-size: 14px;
+}
+
+.twitter-handle {
+    font-size: 12px;
+    color: #8899A6;
+}
+
+.tweet {
+    font-size: 14px;
+}
+
+
+.tweet-controls {
+    padding: 20px 0 0;
+}
+
+    .tweet-controls a {
+        display: inline-block;
+        vertical-align: middle;
+        font-size: 16px;
+        margin-right: 20px;
+        color: #667580;
+    }
+
+        .tweet-controls a:hover {
+            cursor: pointer;
+        }
+
+
+    .like-tweet:hover .icon {
+        color: #E0245E;
+    }
+
+
+        .like-tweet .icon:before {
+            content: "\f08a";
+        }
+
+    .share-tweet:hover .icon {
+        color: #3b94d9;
+    }
+
+    .share-tweet .icon:before {
+        content: "\f045";
+    }
+
+.tweet-time {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 12px;
+    float: right;
+    color: #667580;
+}
+
+.feed-footer {
+    border-top: 1px solid rgba(15,70,100,.12);
+    padding: 10px 0;
+    font-size: 12px;
+}
+
+.feed-footer-links {
+    padding: 10px 0;
+}
+
+.embed-tweet {
+    float: left;
+}
+
+.feed-footer .embed-tweet:hover {
+    color: #55acee;
+}
+
+.view-tweet {
+    float: right;
+}
+
+.feed-footer .view-tweet:hover {
+    color: #55acee;
+}
+
+.hashtag {
+    padding: 10px 0;
+}
+
+    .hashtag p {
+        margin: 0;
+        line-height: 1.5;
+    }
